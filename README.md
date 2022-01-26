@@ -24,7 +24,7 @@ Program ini untuk memenuhi tugas mata kuliah ***IF2211 Strategi Algoritma***
 <!-- GETTING STARTED -->
 ## Compile  & Run Program
 
-1. Buka parent directory menggunakan VS Code (terminal CMD/Powershell), untuk compile program run command :
+1. Buka parent directory menggunakan VS Code (terminal CMD), untuk compile program run command :
 
     
         g++ .\src\*.cpp -o \bin\Main.exe
