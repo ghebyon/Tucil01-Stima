@@ -37,8 +37,10 @@ int main(){
 
     vector<vector<Letter>> puzzle;
     vector<string> query;
-
-    createPuzzle("..\\test\\large-3.txt", puzzle, query);
+    string filename;
+    cout << "Input filename (<filename>.txt)\n>>";
+    getline(cin, filename);
+    createPuzzle("..\\test\\"+filename, puzzle, query);
     
     printPuzzle(puzzle);
     
